@@ -1,5 +1,7 @@
 package com.rabbit.productor.service;
 
+import com.rabbit.productor.model.AlertaDTO;
+
 public interface ProductorService {
-    void sendMessage(String message);
+    void sendMessage(AlertaDTO alerta);
 }
